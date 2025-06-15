@@ -34,7 +34,7 @@ if platform == "windows_x86":
             "setupapi",
         ],
     )
-elif platform.startswith("linux_"):
+elif platform.startswith("linux_") or platform.startswith("native"):
     env.Append(
         SRC_FILTER=[
             "+<src/linux.c>",
