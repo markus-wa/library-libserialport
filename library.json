@@ -1,0 +1,14 @@
+{
+	"name": "libserialport",
+	"version": "v0.1.2",
+	"description": "Cross-platform library for accessing serial ports",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kuba2k2/library-libserialport"
+	},
+	"build": {
+		"srcDir": ".",
+		"includeDir": ".",
+		"extraScript": "extra_script.py"
+	}
+}
